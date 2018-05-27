@@ -1,7 +1,9 @@
 PODS:
-  - CacheManagerSwift (0.1.0)
+  - Cache (4.2.0)
+  - CacheManagerSwift (1.0.0)
 
 DEPENDENCIES:
+  - Cache
   - CacheManagerSwift (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CacheManagerSwift: 9f15e5ad0e0a6635f8991fe91db625a324f0395a
+  Cache: f28f8dd64b632155aabf9b3906b036a659048251
+  CacheManagerSwift: 544754d81e5a472c8f5f10fb081be6df59e53865
 
-PODFILE CHECKSUM: ea42a05bcf90119b8e2de7fc4494a1c5cecc7de9
+PODFILE CHECKSUM: 656012d9dab23bc7aed337abadc8ac9dfe3138fb
 
 COCOAPODS: 1.4.0

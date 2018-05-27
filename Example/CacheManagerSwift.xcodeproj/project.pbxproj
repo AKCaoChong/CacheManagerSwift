@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		247777C720BAB81B0038C8D0 /* GlobalFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247777C620BAB81B0038C8D0 /* GlobalFunc.swift */; };
 		49F51EA016A7D0EEA139195B /* Pods_CacheManagerSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4347C3DC29353EB7EAA832A1 /* Pods_CacheManagerSwift_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		144BABEC5DE2DC90E96142BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		157BC47B5E0AD9168BEEFC6C /* Pods-CacheManagerSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheManagerSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CacheManagerSwift_Example/Pods-CacheManagerSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		247777C620BAB81B0038C8D0 /* GlobalFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunc.swift; sourceTree = "<group>"; };
 		3CA206D9CB2BB10A3A7292F7 /* Pods-CacheManagerSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheManagerSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CacheManagerSwift_Tests/Pods-CacheManagerSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4347C3DC29353EB7EAA832A1 /* Pods_CacheManagerSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CacheManagerSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AE35AB18ED3262DB19B192 /* Pods-CacheManagerSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheManagerSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CacheManagerSwift_Example/Pods-CacheManagerSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for CacheManagerSwift */ = {
 			isa = PBXGroup;
 			children = (
+				247777C620BAB81B0038C8D0 /* GlobalFunc.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -352,10 +355,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CacheManagerSwift_Example/Pods-CacheManagerSwift_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
 				"${BUILT_PRODUCTS_DIR}/CacheManagerSwift/CacheManagerSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CacheManagerSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				247777C720BAB81B0038C8D0 /* GlobalFunc.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
