@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CacheManagerSwift_Example' do
+  pod 'CacheManagerSwift', :path => '../'
+
+  target 'CacheManagerSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
