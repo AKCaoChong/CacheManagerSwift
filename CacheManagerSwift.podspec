@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CacheManagerSwift'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CacheManagerSwift.'
-
+  s.version          = '1.0.0'
+  s.summary          = 'CacheManagerSwift Cache'
+  s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/AKCaoChong/CacheManagerSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'AKCaoChong' => 'caochong0621@thundersoft.com' }
+  s.author           = { 'AKCaoChong' => '18211159868@163.com' }
   s.source           = { :git => 'https://github.com/AKCaoChong/CacheManagerSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

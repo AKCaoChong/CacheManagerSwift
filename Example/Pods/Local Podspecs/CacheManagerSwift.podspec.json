@@ -1,0 +1,22 @@
+{
+  "name": "CacheManagerSwift",
+  "version": "0.1.0",
+  "summary": "A short description of CacheManagerSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AKCaoChong/CacheManagerSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AKCaoChong": "caochong0621@thundersoft.com"
+  },
+  "source": {
+    "git": "https://github.com/AKCaoChong/CacheManagerSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CacheManagerSwift/Classes/**/*"
+}

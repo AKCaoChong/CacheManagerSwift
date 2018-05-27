@@ -1,0 +1,6 @@
+framework module Pods_CacheManagerSwift_Example {
+  umbrella header "Pods-CacheManagerSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
