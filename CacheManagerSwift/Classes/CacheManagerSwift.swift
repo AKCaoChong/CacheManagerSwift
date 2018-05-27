@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Cache
 
 public class CacheManagerSwift {
     private static let sharedManager: CacheManagerSwift = {
